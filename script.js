@@ -14,13 +14,3 @@ const p_number = participant.length -1;
 for(i = 0;i <= p_number;i++){
     document.getElementById("participant").insertAdjacentHTML("afterend",`<div id="Participants">・${participant[i]}</div>`);
 }
-
-let request = new XMLHttpRequest();
-
-request.open("GET","https://api.scratch.mit.edu/users/tamago0926/following/studios/projects",true);
-request.onload = function(){
-    let date = this.request;
-    console.log(date);
-}
-
-request.send();
