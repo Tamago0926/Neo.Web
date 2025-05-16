@@ -3,7 +3,7 @@
 body {
     background-color: rgb(59, 59, 59);
     color: rgb(211, 211, 211);
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #rogo_img{
@@ -49,6 +49,7 @@ body {
     position: relative;
     top: 30px;
     color: rgb(255, 255, 255);
+    margin-top: -2px;
 }
 
 #title2 {
@@ -77,3 +78,95 @@ body {
     top: 30px;
     font-size: 25px;
 }
+
+#use_game {
+    position: relative;
+    top: 200px;
+    left: 500px;
+}
+
+#strong {
+    font-size: 20px;
+}
+
+#a_tag {
+    text-decoration: none;
+    color: rgb(211, 162, 55);
+}
+
+.hum_close {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    left: 5px;
+    top: 500px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.hum_open {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    left: 245px;
+    top: 500px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+
+.dorowar_close {
+    top: -10px;
+    left: -250px;
+    z-index: -2;
+    position: fixed;
+    transition: 500ms;
+}
+
+.dorowar_open {
+    top: -10px;
+    left: -10px;
+    z-index: -2;
+    position: fixed;
+    transition: 500ms;
+}
+
+#left_gray {
+    width: 250px;
+    height: 1100px;
+    background-color: rgb(100, 100, 100);
+}
+
+#left_black {
+    width: 40px;
+    height: 1100px;
+    background-color: black;
+    position: relative;
+    right: 10px;
+}
+
+.text_close {
+    position: fixed;
+    left: -200px;
+    bottom: 700px;
+    transition: 500ms;
+}
+
+.text_open {
+    position: fixed;
+    left: 40px;
+    bottom: 700px;
+    transition: 500ms;
+}
+
+#dorowar_title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+#a_dorowar{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
