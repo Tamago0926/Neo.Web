@@ -99,7 +99,7 @@ body {
     height: 25px;
     position: fixed;
     left: 5px;
-    top: 500px;
+    top: 450px;
     cursor: pointer;
     transition: 500ms;
 }
@@ -109,7 +109,7 @@ body {
     height: 25px;
     position: fixed;
     left: 245px;
-    top: 500px;
+    top: 450px;
     cursor: pointer;
     transition: 500ms;
 }
