@@ -9,7 +9,7 @@ for(i = 0;i <= n_number;i++){
 }
 
 //参加者
-const participant = ["tamago0926","tamago1","tamago2"];
+const participant = ["随時追加していきます"];
 const p_number = participant.length -1;
 for(i = 0;i <= p_number;i++){
     document.getElementById("participant").insertAdjacentHTML("afterend",`<div id="Participants">・${participant[i]}</div>`);
