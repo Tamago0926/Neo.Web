@@ -4,6 +4,7 @@ body {
     background-color: rgb(59, 59, 59);
     color: rgb(211, 211, 211);
     font-size: 16px;
+    height: 3000px;
 }
 
 #rogo_img{
@@ -59,34 +60,62 @@ body {
     font-weight: bold;
 }
 
-#p_part {
-    position: relative;
-    top: 50px;
+#title3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    border-bottom: 2px solid gray;
+    width: 300px;
 }
 
 #p_summary {
     position: relative;
-    left: 500px;
-    font-size: 30px;
+    left: 0px;
+    font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    top: 100px;
+}
+
+.margin {
+    margin-top: 50px;
 }
 
 #Participants {
     position: relative;
-    left: 600px;
-    top: 30px;
-    font-size: 25px;
+    left: 50px;
+    top: 140px;
+    font-size: 20px;
 }
 
 #use_game {
     position: relative;
-    top: 200px;
     left: 500px;
+}
+
+#vattle_place {
+    position: relative;
+    top: 50px;
+}
+
+#invite {
+    position: relative;
+    top: 50px;
+}
+
+#rule {
+    position: relative;
+    top: 50px;
+}
+
+#match_way {
+    position: relative;
+    top: 50px;
 }
 
 #strong {
     font-size: 20px;
+    width: 900px;
 }
 
 #a_tag {
@@ -148,26 +177,34 @@ body {
 .text_close {
     position: fixed;
     left: -200px;
-    bottom: 700px;
+    bottom: 600px;
     transition: 500ms;
 }
 
 .text_open {
     position: fixed;
     left: 40px;
-    bottom: 700px;
+    bottom: 600px;
     transition: 500ms;
 }
 
 #dorowar_title {
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-top: 0px;
     color: white;
     font-weight: bold;
+}
+
+#tetris_T {
+    width: 150px;
+    height: 150px;
+    user-select: none;
 }
 
 #a_dorowar{
     text-decoration: none;
     color: white;
     cursor: pointer;
+    position: relative;
+    top: 30px;
 }
